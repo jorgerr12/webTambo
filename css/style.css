@@ -7,7 +7,9 @@
     padding: 0;
     text-decoration: none;
 }
-
+a{
+    text-decoration: none;
+}
 body {
     font-family: Montserrat;
     font-weight: 400;
@@ -40,6 +42,7 @@ nav ul li {
 
 nav ul li a {
     color: white;
+    text-decoration:none;
 }
 
 img {
@@ -89,7 +92,7 @@ span.count {
 
 .search input {
     width: 100%;
-    padding: 12px;
+    padding: 6px;
     border: 1px solid;
     box-shadow: 0 6px 12px rgba(0, 0, 0, .1);
     border-radius: 4px;
@@ -132,7 +135,7 @@ span.count {
 
 .btnAdd {
     border-top: none;
-    padding: 10px 20px 8px;
+    padding: 10px 3rem 8px;
     text-align: center;
     background-color: #A81B8D;
     border-radius: 50px;
@@ -163,7 +166,7 @@ span.count {
 }
 
 .col-md-2 {
-    width: 12.5%;
+    width: 16.5%;
 }
 
 .col-md-3 {
