@@ -52,10 +52,12 @@ footer {
     text-align: center;
     padding: 2rem;
 }
-.logo{
+
+.logo {
     padding: 0.5rem;
     box-sizing: border-box;
 }
+
 .titulo {
     text-align: center;
     padding: 10px;
@@ -63,17 +65,20 @@ footer {
     font-size: 26px;
     color: #A81B8D;
 }
+
 .box-cart {
     box-sizing: border-box;
     max-width: 100%;
     background-color: purple;
     display: table;
 }
+
 .cart {
     width: 20px;
     box-sizing: border-box;
     margin-right: 5px;
 }
+
 span.count {
     color: black;
     background-color: yellow;
@@ -109,9 +114,9 @@ span.count {
     padding: 20px 5px;
     background-color: #efefef;
     border-radius: 50px;
-    font-weight: 500;
+    font-weight: bold;
     text-align: center;
-    font-size: 16px;
+    font-size: 14px;
     margin: 0.5rem;
     box-sizing: border-box;
 }
