@@ -12,17 +12,22 @@
 <body>
     <header>
         <nav>
-            <div class="logo col-md-2">
+            <div class="logo col-md-2 col-sm-4">
                 <img src="img/logo.webp" alt="logo">
             </div>
-            <div class="search col-md-3">
+            <div class="search col-md-3 col-sm-8">
                 <input type="text" name="search" id="search" placeholder="Buscar">
             </div>
-            <div class="menu col-md-3">
+            <div class="menu col-md-3 col-sm-12">
                 <ul>
-                    <li><a href="#">Iniciar Sesion</a> </li>
-                    <li><a href="#">Delivery</a></li>
-                    <li><a href="#">Carrito</a></li>
+                    <li class="col-md-4 col-sm-8"><a href="#">INICIAR SESION</a> </li>
+                    <li class="col-md-4 col-sm-6"><a href="#">DELIVERY</a></li>
+                    <li class="col-md-4 col-sm-6">
+                        <a class="box-cart" href="#">
+                            <img class="cart" src="img/carrito-de-compras.png" alt="">
+                            <span class="count">0</span>
+                        </a>
+                    </li>
                 </ul>
             </div>
         </nav>
