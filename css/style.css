@@ -34,6 +34,7 @@ nav {
 
 nav ul {
     display: flex;
+    align-items: center;
 }
 
 nav ul li {
@@ -73,7 +74,9 @@ footer {
     box-sizing: border-box;
     max-width: 100%;
     background-color: purple;
-    display: table;
+    display: inline-block;
+    padding: 12px;
+    border-radius: 18px;
 }
 
 .cart {
@@ -101,7 +104,7 @@ span.count {
 
 .container {
     max-width: 1400px;
-    margin: auto;
+    margin: 2rem auto;
 }
 
 .group {
